@@ -1,0 +1,12 @@
+<div data-theme="a" data-role="header">
+  <h3>
+    Header
+  </h3>
+</div>
+<div data-role="content" style="padding: 15px">
+  <a data-role="button" data-transition="slide" href="#new">
+    Ajouter une requête
+  </a>
+  <ul data-role="listview" data-inset="true" id="inquiries">
+  </ul>
+</div>

@@ -1,0 +1,29 @@
+<div data-theme="a" data-role="header">
+  <a data-icon="back" class="back ui-btn-left">Back</a>
+  <h3>
+    Ajouter une requête
+  </h3>
+</div>
+<div data-role="content" style="padding: 15px">
+  <form action="">
+    <div data-role="fieldcontain">
+      <fieldset data-role="controlgroup">
+        <label for="title">
+          Titre
+        </label>
+        <input name="" id="title" type="text">
+      </fieldset>
+    </div>
+    <div data-role="fieldcontain">
+      <fieldset data-role="controlgroup">
+        <label for="description">
+          Description
+        </label>
+        <textarea name="" id="description" placeholder=""></textarea>
+      </fieldset>
+    </div>
+    <a data-role="button" id="capturePhoto">Prendre une photo</a>
+    <input value="Enregistrer" type="submit" id="submit">
+    <img style="display:none;width:300px;" id="smallImage" src="" />
+  </form>
+</div>

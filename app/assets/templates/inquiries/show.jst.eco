@@ -1,0 +1,11 @@
+<div data-theme="a" data-role="header">
+  <a data-icon="back" class="back ui-btn-left">Back</a>
+  <h3>
+    Header
+  </h3>
+</div>
+<div data-role="content">
+  <div>Titre : <%= @title %></div>
+  <div>Description : <%= @description %></div>
+  <img width="300px" src="<%= window.ServerAddress %>/images/<%= @id %>.jpg">
+</div>
